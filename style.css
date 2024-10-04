@@ -1,0 +1,42 @@
+body{
+    margin: 0%;
+    box-sizing: border-box;
+    background-color: cornsilk;
+
+}
+nav,footer{
+    padding: 20px;
+    background-color: bisque;
+}
+
+img{
+    width: 100%;
+    height: 400px;
+}
+nav a{
+    background-color: green;
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    float: right;
+}
+.services{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.item{
+    margin: 20px;
+    width: 32%;
+    background-color: aquamarine;
+    border-radius: 20px;
+}
+footer{
+    text-align: center;
+}
+.welcome{
+    align-items: center;
+}
